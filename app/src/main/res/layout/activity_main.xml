@@ -14,6 +14,41 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintVertical_bias="0.52" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textLongMessage"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:text="Enter Text"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/helloText"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="87dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="217dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="44dp"
+        android:text="Click Me!"
+        app:layout_constraintBottom_toBottomOf="@+id/helloText"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
 
 </android.support.constraint.ConstraintLayout>
